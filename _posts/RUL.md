@@ -1,3 +1,14 @@
+
+---
+layout: post
+title: Asset Health Management
+subtitle: Residual Useful Life Estimation
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [RUL, Deep Learning]
+author: Arun Abraham Thomas
+---
 # Asset Health Management
 
  ###  <font color="blue"> \# Residual Useful Life Estimation | # Deep Learning | # Digital Transformation | # IIoT | # Industry 4.0 </font>
