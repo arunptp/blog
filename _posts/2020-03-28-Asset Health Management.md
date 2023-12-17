@@ -1,7 +1,7 @@
 
-# Asset Health Management
 
- ###  <font color="blue"> \# Residual Useful Life Estimation | # Deep Learning | # Digital Transformation | # IIoT | # Industry 4.0 </font>
+
+ <font color="blue"> \# Residual Useful Life Estimation | # Deep Learning | # Digital Transformation | # IIoT | # Industry 4.0 </font>
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-> ## # An  interactive demo is explored at https://arun-thomas.xyz/rul/
+> ## # An  interactive demo is explored at https://arun-thomas.in/rul/
 
 
 
