@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Asset Health Management
+subtitle: Residual Useful Life Estimation, Deep Learning, Digital Transformation
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [books, test]
-author: Sharon Smith and Barry Simpson
+tags: [RUL, Deep Learning]
+author: Arun Abraham Thomas
 ---
 
 
