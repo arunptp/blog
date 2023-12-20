@@ -10,7 +10,7 @@ author: Arun Abraham Thomas
 ---
 
 
- <font color="blue"> \# Residual Useful Life Estimation | # Deep Learning | # Digital Transformation | # IIoT | # Industry 4.0 </font>
+ <font color="blue"> # Residual Useful Life Estimation | # Deep Learning | # Digital Transformation | # IIoT | # Industry 4.0 </font>
 
 
 
