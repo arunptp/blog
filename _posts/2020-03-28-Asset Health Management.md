@@ -19,7 +19,7 @@ author: Arun Abraham Thomas
 
 
 
-> ## # An  interactive demo is explored at https://arun-thomas.in/rul/
+> ## # An  interactive demo is explored at <a href="https://arun-thomas.in/rul/">https://arun-thomas.in/rul/</a>
 
 
 
