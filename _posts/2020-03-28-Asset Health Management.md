@@ -430,9 +430,8 @@ plt = train_data_1[train_data_1.columns.difference(['id','cycle'])].plot(subplot
 ```
 
 
-    
-![png](RULPY_files/RULPY_14_0.png)
-![png] ({{ 'RULPY_files/RULPY_14_0.png' | relative_url }})
+
+![png](/assets/img/RULPY_files/RULPY_14_0.png)
     
 
 
