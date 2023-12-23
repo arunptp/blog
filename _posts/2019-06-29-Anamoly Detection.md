@@ -377,7 +377,7 @@ plt.text('2004-02-19 06:12:39',0.3,'Breakdown of Bearing 1',rotation=90, fontsiz
 
 
     
-![png](BearingAnalytics__files/BearingAnalytics__23_1.png)
+![png](assets/BearingAnalytics/BearingAnalytics__23_1.png)
     
 
 
