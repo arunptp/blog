@@ -1,3 +1,17 @@
+---
+layout: post
+title: Anomaly Detection Engine for Preventive Maintenanc
+subtitle:  To illustrate conditioning monitoring of industrial machinery by walking  through a real life dataset of bearing vibration data  
+cover-img: /assets/img/rulcvr.png
+thumbnail-img: /assets/img/rulcvr.png
+share-img: /assets/img/rulcvr.png
+tags: [Condition Monitoring, Prophet]
+author: Arun Abraham Thomas
+---
+
+
+
+
 # Anomaly Detection Engine for Preventive Maintenance
 
    --- By Arun A Thomas
