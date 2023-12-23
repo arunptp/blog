@@ -377,7 +377,7 @@ plt.text('2004-02-19 06:12:39',0.3,'Breakdown of Bearing 1',rotation=90, fontsiz
 
 
     
-![png](assets/BearingAnalytics/BearingAnalytics__23_1.png)
+![png](assets/img/BearingAnalytics/BearingAnalytics__23_1.png)
     
 
 
@@ -417,7 +417,7 @@ ax2.set(xlabel="Month-Date Time", ylabel="Vibration/Acceleration(g)")
 
 
     
-![png](BearingAnalytics__files/BearingAnalytics__26_1.png)
+![png](assets/img/BearingAnalytics/BearingAnalytics__26_1.png)
     
 
 
@@ -559,7 +559,7 @@ fig1.set(xlabel="Month (MM)-Date(DD) Time", ylabel="Vibration/Acceleration(g)")
 
 
     
-![png](BearingAnalytics__files/BearingAnalytics__35_2.png)
+![png](assets/img/BearingAnalytics/BearingAnalytics__35_2.png)
     
 
 
@@ -607,7 +607,7 @@ fig1.text(731624.875,0.057,'Actual/Healthy', fontsize=14, color='r')
 
 
     
-![png](BearingAnalytics__files/BearingAnalytics__38_2.png)
+![png](assets/img/BearingAnalytics/BearingAnalytics__38_2.png)
     
 
 
