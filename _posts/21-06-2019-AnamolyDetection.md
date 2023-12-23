@@ -1,4 +1,4 @@
-# CONDITION MONITORING & PREDICTIVE MAINTENANCE
+# Anomaly Detection Engine for Preventive Maintenance
 
    --- By Arun A Thomas
 
