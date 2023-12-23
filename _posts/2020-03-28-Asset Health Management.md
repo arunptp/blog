@@ -483,7 +483,7 @@ print('Average Life of Engines in hours/cycles (out of 100 engines in dataset) :
 
 
     
-![png](RULPY_files/RULPY_19_1.png)
+![png](/assets/img/RULPY_files/RULPY_19_1.png)
     
 
 
@@ -1144,7 +1144,7 @@ plt.show()
 
 
     
-![png](RULPY_files/RULPY_62_0.png)
+![png](/assets/img/RULPY_files/RULPY_62_0.png)
     
 
 
@@ -1162,7 +1162,7 @@ plt.show()
 
 
     
-![png](RULPY_files/RULPY_63_0.png)
+![png](/assets/img/RULPY_files/RULPY_63_0.png)
     
 
 
