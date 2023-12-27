@@ -53,7 +53,7 @@ A datascience based process is utilized for predictive maintenance. The steps in
 
 However, this method often sends false alarms (false positives) or misses an alarm (false negative). Furthermore, a single signal is observed/analysed in isolation. For example, an alarm may sound if the temperature exceeeds a certain level. A system defined above often cannot look at mutiple parameters and come to a conclusion about the state of a machine. Or technical parlance, one cannot take advantage of the multi-dimensionality of the data.
 
-Anamoly detection using a one variable (vibration in a bearing dataset) is explored in detailed in my <a href="#">blog article</a>. By analysing past trends of healthy (black points in graph), the model learns the expected trend with acceptable variance .A trained model predicts the trends for the future (The blue line represents the expected values from 2004-02-15, 23:42:39 with the light blue portion showing the acceptable variance) and if any deviation is observed, an alarm can be raised.
+Anamoly detection using a one variable (vibration in a bearing dataset) is explored in detailed in my <a href="https://blog.arun-thomas.in/2019-06-29-Anamoly-Detection/">blog article</a>. By analysing past trends of healthy (black points in graph), the model learns the expected trend with acceptable variance .A trained model predicts the trends for the future (The blue line represents the expected values from 2004-02-15, 23:42:39 with the light blue portion showing the acceptable variance) and if any deviation is observed, an alarm can be raised.
   
   </div>
   
