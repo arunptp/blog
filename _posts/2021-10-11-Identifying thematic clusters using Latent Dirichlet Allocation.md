@@ -9,21 +9,6 @@ tags: [Unsupervised Machine Learning, Latent Dirichlet Allocation, Topic Modelli
 author: Arun Abraham Thomas
 ---
 
-
-
----
-
-
-
-> ## # An  interactive demo is explored <a href="[https://arun-thomas.in/rul/](https://arun-thomas.in/Explorative-Survey-of-Papers-in-Energy/)">here!!!</a>
-
-
-
----
-
-
-
-
 # Introduction
 
 <div align="justify">
@@ -36,6 +21,8 @@ shortcomings like choosing non-precise keywords, missing journals, and errors du
 volume of literature that a reseacher has to skim through (Delen & Crossland, 2008) .
 
 </div>
+
+<br>
 
 <div align="justify">
 
@@ -55,6 +42,8 @@ dimensional. High dimensionality of NLP problems leads to difficulty in clusteri
 “distance-metric” based algorithms.
 
 </div>
+
+<br>
 
 <div align="justify">
 
@@ -99,7 +88,9 @@ related to renewable energy under the topic “renewable”. Once LDA generates 
 representation in much lower dimensions (1000 or lower), it is easily amenable for standard clustering algorithms. We have used the pyLDAvis package for interpreting the topics/clusters
 and make interactive web-based visualizations of the journals (Sievert & Shirley, 2014) .
   
-  </div>
+</div>
+
+<br>
 
 
 <div align="justify">
@@ -120,4 +111,25 @@ questions trying to be answered, the number of topics can differ.
 
 <div align="justify">
 
+It is interesting to note that the methodology and algorithms described above
+automatically identifies and clusters the broad areas of research like “Electricity Market”.
+“Climate Change”, “Renewables” and groups various papers into the identified thematic groups
+. The broad themes remain more or less the same for the three
+niche, focused journals, i.e. Energy Economics, Energy Policy and Resource &amp; Energy
+Economics. For the journals with broader scope, i.e. Applied Energy and Energy, technical
+thematic clusters like “Power Systems”, “Thermal Storage”, “Fuel Cells” are automatically
+identified in addition to other themes like “Renewables”, “Climate Change”. Thus, the algorithm
+and methodology
+
+
 </div>
+
+---
+
+
+
+> ## # An  interactive demo is explored <a href="[https://arun-thomas.in/rul/](https://arun-thomas.in/Explorative-Survey-of-Papers-in-Energy/)">here!!!</a>
+
+
+
+---
