@@ -1,0 +1,89 @@
+---
+layout: post
+title: Asset Health Management
+subtitle: Residual Useful Life Estimation, Deep Learning, Digital Transformation
+cover-img: /assets/img/rulcvr.png
+thumbnail-img: /assets/img/rulcvr.png
+share-img: /assets/img/rulcvr.png
+tags: [RUL, Deep Learning]
+author: Arun Abraham Thomas
+---
+
+
+ <font color="blue"> # Residual Useful Life Estimation | # Deep Learning | # Digital Transformation | # IIoT | # Industry 4.0 </font>
+
+
+
+
+---
+
+
+
+> ## # An  interactive demo is explored at <a href="https://arun-thomas.in/rul/">https://arun-thomas.in/rul/</a>
+
+
+
+---
+
+
+
+
+
+
+
+# Introduction
+
+<div align="justify">
+  
+Rapid adoption of renewable energy sources, changes in regulatory environment with the implementation of SCED/MBED, stringent enviromental norms are putting immense pressure on operation of thermal power plants. The above externalities are forcing increased cyclic operation of thermal fleets, wherein frequent start up and shutdowns are causing varying load on assets like boilers, feed pumps, motors, pipes. Under such conditions, ensuring availiablity and safety of equipments is of prime significance. Consequently, utilities needs to strategize for a transition from a reactive maintenance approach to real time condition based health management eventually leading to preventive maintenance (PdM).
+
+This webpage illustrates estimation of residual useful life (RUL) of an equipment using deep learning. The equipment is operating normally at the start of each time series, and develops a fault at some point during the series. In the training set, the fault grows in magnitude until system failure. In the test set, the time series ends some time prior to system failure. The objective is to predict, "What is the probability that the equipment will fail in the next n cycles/days?".
+
+A datascience based process is utilized for predictive maintenance. The steps include preparing the dataset, visually exploring it, partioning the dataset for training and validation, validating the models using unseen dataset.
+
+
+</div>
+
+
+# Towards Multi Sensor approach
+
+<div align="justify">
+  
+  Generally, conditioning monitoring of a machine is done by looking at a sensor measurement (Eg. Temperature, Vibration ) and imposing bounds to it, i.e. under normal operating conditions, the measurement values are bounded by a maximum and minimum value (similar to control charts). Any deviation in the defined bounds sends an alarm. This is often generally defined as anamoly detection.
+
+However, this method often sends false alarms (false positives) or misses an alarm (false negative). Furthermore, a single signal is observed/analysed in isolation. For example, an alarm may sound if the temperature exceeeds a certain level. A system defined above often cannot look at mutiple parameters and come to a conclusion about the state of a machine. Or technical parlance, one cannot take advantage of the multi-dimensionality of the data.
+
+Anamoly detection using a one variable (vibration in a bearing dataset) is explored in detailed in my <a href="https://blog.arun-thomas.in/2019-06-29-Anamoly-Detection/">blog article</a>. By analysing past trends of healthy (black points in graph), the model learns the expected trend with acceptable variance .A trained model predicts the trends for the future (The blue line represents the expected values from 2004-02-15, 23:42:39 with the light blue portion showing the acceptable variance) and if any deviation is observed, an alarm can be raised.
+  
+  </div>
+  
+  ![Image not Available](https://github.com/arunptp/rul/blob/master/images/bearinganalytics.png?raw=true)
+
+# Softwares / Packages Used
+
+<div align="justify">
+
+All sofware packages used are open-sourced packages. The language used is Python and asscoiated packages like pandas, matplotlib. Recurrent Neural Network (RNN) using LSTM's is modeled using Tensorflow and Keras
+  
+  </div>
+
+# The Data Set
+
+<div align="justify">
+
+Sensor Data is recorded for a fleet of engines of the same type (100 in total). Data sets consists of multiple multivariate time series. Each data set is further divided into training and test subsets. Each time series is from a different engine – i.e., the data can be considered to be from a fleet of engines of the same type. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user. This wear and variation is considered normal, i.e., it is not considered a fault condition. There are three operational settings that have a substantial effect on engine performance. These settings are also included in the data. The data is contaminated with sensor noise.
+
+The engine is operating normally at the start of each time series, and develops a fault at some point during the series. In the training set, the fault grows in magnitude until system failure. In the test set, the time series ends some time prior to system failure. The objective is to predict the number of remaining operational cycles before failure in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate.
+
+Also provided a vector of true Remaining Useful Life (RUL) values for the test data.
+
+The data are provided as a zip-compressed text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle, each column is a different variable. The columns correspond to:
+1)	unit number
+2)	time, in cycles
+3)	operational setting 1
+4)	operational setting 2
+5)	operational setting 3
+6)	sensor measurement  1
+7)	sensor measurement  2
+...
+26)	sensor measurement  26
