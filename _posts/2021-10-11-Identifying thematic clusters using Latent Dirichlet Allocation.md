@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Identifying Thematic Clusters using Latent Dirichlet Allocation 
-subtitle: Explorative Surevy in Energy Domain considering 5 premier journals over a period of 25 years
+subtitle: Explorative Survey in Energy Domain considering 5 premier journals over a period of 25 years
 cover-img: /assets/img/LDA.png
 thumbnail-img: /assets/img/LDA.png
 share-img: /assets/img/LDA.png
