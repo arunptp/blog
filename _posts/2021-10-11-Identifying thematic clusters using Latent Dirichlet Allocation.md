@@ -2,14 +2,15 @@
 layout: post
 title: Identifying Thematic Clusters using Latent Dirichlet Allocation 
 subtitle: Explorative Surevy in Energy Domain considering 5 premier journals over a period of 25 years
-cover-img: /assets/img/rulcvr.png
-thumbnail-img: /assets/img/rulcvr.png
-share-img: /assets/img/rulcvr.png
+cover-img: /assets/img/LDA.png
+thumbnail-img: /assets/img/LDA.png
+share-img: /assets/img/LDA.png
 tags: [Unsupervised Machine Learning, Latent Dirichlet Allocation, Topic Modelling, Text Analytics]
 author: Arun Abraham Thomas
 ---
 
 # Introduction
+
 
 <div align="justify">
 
@@ -60,6 +61,8 @@ been used to provide interpretable lower dimensional representation of documents
 
 # Topic Modelling
 
+<br>
+
 <div align="justify">
   
 Topic Modelling has been used for exploratory analysis of large number of papers
@@ -75,6 +78,8 @@ policy of New Energy Vehicles (NEVs) in China (Jia & Wu, 2018) , sustainability 
   </div>
   
 # Latent Dirichlet Algorithm (LDA)
+
+<br>
 
 <div align="justify">
 
@@ -108,6 +113,8 @@ questions trying to be answered, the number of topics can differ.
 
 
 # The Results
+
+<br>
 
 <div align="justify">
 
