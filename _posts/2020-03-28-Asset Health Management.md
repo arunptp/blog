@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Asset Health Management
-subtitle: Residual Useful Life Estimation, Deep Learning, Digital Transformation
+subtitle: A Deep Learning Based Approach towards Residual Useful Life Estimation of a Machine
 cover-img: /assets/img/rulcvr.png
 thumbnail-img: /assets/img/rulcvr.png
 share-img: /assets/img/rulcvr.png
