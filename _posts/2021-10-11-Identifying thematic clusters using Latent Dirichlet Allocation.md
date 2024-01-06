@@ -9,6 +9,8 @@ tags: [Unsupervised Machine Learning, Latent Dirichlet Allocation, Topic Modelli
 author: Arun Abraham Thomas
 ---
 
+<br>
+
 # Introduction
 
 <br>
@@ -58,7 +60,7 @@ been used to provide interpretable lower dimensional representation of documents
 </div>
 
 
-
+<br>
 
 # Topic Modelling
 
@@ -77,6 +79,8 @@ policy of New Energy Vehicles (NEVs) in China (Jia & Wu, 2018) , sustainability 
 
   
   </div>
+
+<br>
   
 # Latent Dirichlet Algorithm (LDA)
 
@@ -112,6 +116,7 @@ questions trying to be answered, the number of topics can differ.
   
  </div>
 
+<br>
 
 # The Results
 
@@ -136,7 +141,7 @@ and methodology
 
 
 
-> ## # An  interactive demo is explored <a href="[https://arun-thomas.in/rul/](https://arun-thomas.in/Explorative-Survey-of-Papers-in-Energy/)">here!!!</a>
+> ## # An  interactive demo is explored <a href="https://arun-thomas.in/Explorative-Survey-of-Papers-in-Energy/">here!!!</a>
 
 
 
